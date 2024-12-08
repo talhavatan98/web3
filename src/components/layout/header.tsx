@@ -107,7 +107,14 @@ export function Header() {
                   )}
                 </button>
               </li>
-              <li><a href="#" className="px-3 py-2 rounded-md hover:bg-opacity-20 hover:bg-white transition-colors duration-300 font-bold">Contact Us</a></li>
+              <li>
+                <Link 
+                  href="/contact" 
+                  className="px-3 py-2 rounded-md hover:bg-opacity-20 hover:bg-white transition-colors duration-300 font-bold"
+                >
+                  Contact Us
+                </Link>
+              </li>
               <li><a href="#" className="px-3 py-2 rounded-md hover:bg-opacity-20 hover:bg-white transition-colors duration-300 font-bold">Free Tools for Goals</a></li>
             </ul>
           </nav>
